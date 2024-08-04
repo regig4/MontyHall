@@ -43,7 +43,7 @@ experiment2()
     }
 }
 
-count=100
+count=1000
 experiment $count
 probability=$(($win_count * 100 / $count))
 echo "experiment #1 probability: $probability"
