@@ -1,0 +1,15 @@
+C:\Users\Jan\programs\MontyHall\csharp\monty\obj\Debug\net9.0\monty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jan\programs\MontyHall\csharp\monty\obj\Debug\net9.0\monty.AssemblyInfoInputs.cache
+C:\Users\Jan\programs\MontyHall\csharp\monty\obj\Debug\net9.0\monty.AssemblyInfo.cs
+C:\Users\Jan\programs\MontyHall\csharp\monty\obj\Debug\net9.0\monty.csproj.CoreCompileInputs.cache
+C:\Users\Jan\programs\MontyHall\csharp\monty\obj\Debug\net9.0\monty.sourcelink.json
+C:\Users\Jan\programs\MontyHall\csharp\monty\bin\Debug\net9.0\monty.exe
+C:\Users\Jan\programs\MontyHall\csharp\monty\bin\Debug\net9.0\monty.deps.json
+C:\Users\Jan\programs\MontyHall\csharp\monty\bin\Debug\net9.0\monty.runtimeconfig.json
+C:\Users\Jan\programs\MontyHall\csharp\monty\bin\Debug\net9.0\monty.dll
+C:\Users\Jan\programs\MontyHall\csharp\monty\bin\Debug\net9.0\monty.pdb
+C:\Users\Jan\programs\MontyHall\csharp\monty\obj\Debug\net9.0\monty.dll
+C:\Users\Jan\programs\MontyHall\csharp\monty\obj\Debug\net9.0\refint\monty.dll
+C:\Users\Jan\programs\MontyHall\csharp\monty\obj\Debug\net9.0\monty.pdb
+C:\Users\Jan\programs\MontyHall\csharp\monty\obj\Debug\net9.0\monty.genruntimeconfig.cache
+C:\Users\Jan\programs\MontyHall\csharp\monty\obj\Debug\net9.0\ref\monty.dll
