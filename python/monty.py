@@ -3,11 +3,16 @@ import random
 def experiment(n) -> int:
     win_count = 0
 
-    for i in range(n):
-        prize = random.randint(0, 2)
-        choice = random.randint(0, 2)
-        if choice == prize: 
-            win_count += 1
+    #generator comprehension version
+    wins = (1 for x in map(lambda i: (random.randint(0, 2), random.randint(0, 2)), range(n)) if x[0] == x[1])
+    win_count = sum(wins)
+
+    # loop version
+    # for i in range(n):
+    #     prize = random.randint(0, 2)
+    #     choice = random.randint(0, 2)
+    #     if choice == prize: 
+    #         win_count += 1
     
     return win_count
 
