@@ -1,7 +1,9 @@
 #include <stdint.h>
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <iostream>
+
+using namespace std;
 
 uint32_t Experiment(uint32_t n)
 {
@@ -35,7 +37,7 @@ uint32_t Experiment2(uint32_t n)
         if (choice == prize)
         {
             possibleCount = 3;
-            possible = malloc(sizeof(short) * possibleCount);
+            possible = new short[possibleCount];
             for (int j = 0; j < possibleCount; j++)
             {
                 possible[j] = j;
@@ -44,7 +46,7 @@ uint32_t Experiment2(uint32_t n)
         else
         {
             possibleCount = 2;
-            possible = malloc(sizeof(short) * possibleCount);
+            possible = new short[possibleCount];
             possible[0] = choice;
             possible[1] = prize;
         }
@@ -56,13 +58,13 @@ uint32_t Experiment2(uint32_t n)
             winCount++;
         }
 
-        free(possible);
+        delete[] possible;
     }
 
     return winCount;
 }
 
-int main(void)
+int main()
 {
     time_t tt;
     int seed = time(&tt);
@@ -70,9 +72,7 @@ int main(void)
 
     const uint32_t count = 1000000;
     uint32_t winCount = Experiment(count);
-    printf("experiment #1 probability: %d\n", winCount * 100 / count);
+    cout << "experiment #1 probability: " << winCount * 100 / count << endl;
     uint32_t winCount2 = Experiment2(count);
-    printf("experiment #2 probability: %d", winCount2 * 100 / count);
-
-    return 0;
+    cout << "experiment #2 probability: " << winCount2 * 100 / count << endl;
 }
