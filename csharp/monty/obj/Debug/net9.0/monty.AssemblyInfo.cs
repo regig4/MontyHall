@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("monty")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c2ddce7eec4fb1f7dab17fa09c5d539b7001ee1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+188746c59cf54d8ce101f889fbadebbfb6e6c093")]
 [assembly: System.Reflection.AssemblyProductAttribute("monty")]
 [assembly: System.Reflection.AssemblyTitleAttribute("monty")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

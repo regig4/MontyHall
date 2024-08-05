@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <stdint.h>
-#include <time.h>
+#include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
-uint32_t experiment(uint32_t n)
+uint32_t Experiment(uint32_t n)
 {
     uint32_t winCount = 0;
 
@@ -20,7 +20,7 @@ uint32_t experiment(uint32_t n)
     return winCount;
 }
 
-uint32_t experiment2(uint32_t n)
+uint32_t Experiment2(uint32_t n)
 {
     uint32_t winCount = 0;
 
@@ -67,9 +67,9 @@ int main(void)
     srand(seed);
 
     const uint32_t count = 1000000;
-    uint32_t winCount = experiment(count);
+    uint32_t winCount = Experiment(count);
     printf("experiment #1 probability: %d\n", winCount * 100 / count);
-    uint32_t winCount2 = experiment2(count);
+    uint32_t winCount2 = Experiment2(count);
     printf("experiment #2 probability: %d", winCount2 * 100 / count);
 
     return 0;
